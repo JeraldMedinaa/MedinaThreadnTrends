@@ -693,11 +693,13 @@ html, body {
 
 .indextext2nd{
   position: absolute;
-  top: 340%;
+  top: 335%;
   left: 2vw;
+  right: 70%;
   font-size: 2vw;
   color: black;
   font-family: Monaco;
+  text-align: justify;
 }
 
 .contactbg{
