@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Black",
+        "price": 4500,
+        "image": "productimage/black.png"
+    },
+    {
+        "id": 2,
+        "name": "Creamy Blazer",
+        "price": 5000,
+        "image": "productimage/cream.png"
+    },
+    {
+        "id": 3,
+        "name": "Cobalt Blazer",
+        "price": 5500,
+        "image": "productimage/darkishblue.png"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Gray Blazer",
+        "price": 4500,
+        "image": "productimage/gray.png"
+    },
+    {
+        "id": 5,
+        "name": "Light Blue Blazer",
+        "price": 4700,
+        "image": "productimage/lightblueblazer.png"
+    },
+    {
+        "id": 6,
+        "name": "Light Gray Fletcher Blazer",
+        "price": 5000,
+        "image": "productimage/lightgray.png"
+    },
+    {
+        "id": 7,
+        "name": "Mint Blazer",
+        "price": 4700,
+        "image": "productimage/mint.png"
+    },
+    {
+        "id": 8,
+        "name": "Cherry Blossom Blazer",
+        "price": 5200,
+        "image": "productimage/pink.png"
+    },
+    {
+        "id": 9,
+        "name": "Tealful Blazer",
+        "price": 5000,
+        "image": "productimage/tealblazer.png"
+    }
+]

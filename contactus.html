@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="topbodycolor">
+            <a href="index.html"><img class="title" src="images/title.png"></a>
+            <img class="logo" src="images/image.png">
+        </div>
+        <div class="nav">
+            <a href="home.html">
+            <button class="button button1">Home</button> <br>
+            <br></a><br>
+            <a href="product.html">
+              <button class="button button2">Products</button> <br>
+            <br></a><br>
+            <a href="aboutus.html">
+            <button class="button button3">About us</button> <br>
+            <br></a><br>
+            <a href="contactus.html">
+            <button class="button button4">Contact us</button> <br>
+            <br></a><br>
+            <a href="checkout.html">
+                <button class="button button5">Checkout</button> <br>
+            <br></a><br>
+        <div>
+    </header>
+<div>
+<img class="contactbg" src="images/suitstore.jpeg">
+<div class="contacttrans">
+    <img class="contactlogo" src="images/logo2.png">
+    <form id="contactform" onsubmit="showAlert(event)">
+        <div class="contactuss">
+        <h2>Contact Us</h2>
+        </div>
+        <div class="formname">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        </div>
+        <div class="formemail">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        </div>
+        <div class="formmessage">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        
+        <button id="submitButton" type="submit">Submit</button>
+    </form> 
+</div>
+<div class="contacttransparent">
+</div>
+
+<img class="contactplace" src="images/placeholder.png">
+    <p class="contactplacetext">Inayawan, Antuwanga Cebu City</p>
+<img class="contactphone" src="images/phonecall.png">
+    <p class="contactphonetext">123-4476-234</p>
+<img class="contactemail" src="images/email.png">
+    <p class="contactemailtext">Threads&Trends@gmail.com</p>
+<img class="contactlocation" src="images/locationtnt.png">
+
+<footer>
+    <div class="footercontact">
+        <center><p class="footerr">@2024 Thread and Trends. All rights reserved.<br>
+            Medina, Jerald. Student at Adamson Univ.</p></center>
+    </div>
+</footer>  
+
+</div>
+
+
+
+
+
+<script>
+    function showAlert(event) {
+        event.preventDefault();
+        alert("Your message has been successfully emailed! We will try to respond as much as possible!");
+    }
+</script>
+
+</body>
+</html>
