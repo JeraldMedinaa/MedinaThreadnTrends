@@ -363,7 +363,7 @@ html, body {
     border-radius: 2vw;
     width: 60vw;
     height: 35vw;
-    top: 21%;
+    top: 23%;
     left: 9vw;
     position: absolute;
 }
@@ -529,7 +529,7 @@ html, body {
     border-radius: 2vw;
     width: 27vw;
     height: 65vw;
-    top: 21%;
+    top: 23%;
     right: 1vw;
     position: absolute;
 }
@@ -695,7 +695,7 @@ html, body {
   position: absolute;
   top: 335%;
   left: 2vw;
-  right: 70%;
+  right: 70vw;
   font-size: 2vw;
   color: black;
   font-family: Monaco;
