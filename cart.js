@@ -135,18 +135,3 @@ function changeQuantity($idProduct, $type){
     // reload html view cart
     addCartToHTML();
 }
-
-fetch('product.json')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        return response.json();
-    })
-    .then(data => {
-        products = data;
-        addDataToHTML();
-    })
-    .catch(error => {
-        console.error('There was a problem fetching the product data:', error);
-    });
